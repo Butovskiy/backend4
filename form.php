@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style_3.css">
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 	<title>Task-4</title>
 </head>
@@ -52,6 +52,7 @@
 			<input type="checkbox" id="stena" value="stena" name="super[]"<?php if(isset($values['super']['stena'])&&$values['super']['stena']=='stena')print("checked");?>>Прохождение сквозь стены
 			<input type="checkbox" id="levitation" value="levitation" name="super[]"<?php if(isset($values['super']['levitation'])&&$values['super']['levitation']=='levitation')print("checked");?>>Левитация</p>
 			
+
 			<p><label for="bio">Биография</label>
 			<textarea id="bio" name="bio" <?php if(!empty($errors['bio']))  print 'class="error"';?> <?php if(empty($errors['bio'])&&!empty($values['bio'])) print 'class="ok"';?>><?php isset($_COOKIE['bio_error']) ? print trim($_COOKIE['bio_error']) : print $values['bio'] ?></textarea>
 			

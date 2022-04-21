@@ -85,7 +85,7 @@ else {
   $errors = FALSE;
 // ИМЯ
 if (empty($_POST['name'])) {
-    // Выдаем куку на день с флажком об ошибке в поле fio.
+    // Выдаем куки на день с флажком об ошибке в поле fio.
     setcookie('name_error', ' ', time() + 24 * 60 * 60);
     $errors = TRUE;
   }
@@ -185,9 +185,9 @@ if (empty($_POST['name'])) {
   }
 
   // Сохранение в БД.
-  $user = 'u47569';
-$pass = '3312824';
-$db = new PDO('mysql:host=localhost;dbname=u47569', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+  $user = 'u47567';
+$pass = '8124271';
+$db = new PDO('mysql:host=localhost;dbname=u47567', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 
 // Подготовленный запрос. Не именованные метки.
 
