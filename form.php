@@ -5,10 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-	<title>Web4563463456</title>
+	<title>Web4</title>
 </head>
 <body>
 	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-3 border-bottom shadow-sm ">
+	<!-- <h1 style="text-align: center;">Форма</h1> -->
 	</div>
 	<?php 
 		if (!empty($messages)) {

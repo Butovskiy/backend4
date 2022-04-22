@@ -2,7 +2,7 @@ body {
   font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
   font-size: 10pt; /* Размер основного шрифта в пунктах  */
   background-image: url('BG4.jpg');
-  color: #333; /* Цвет основного текста */ 
+  /*color: #333;  Цвет основного текста  */
   padding: 10px;
 }
 /* h1 {
